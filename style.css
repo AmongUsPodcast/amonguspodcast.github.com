@@ -1,13 +1,13 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background: #FFFFFF;
-  background: -webkit-linear-gradient(top left, #FFFFFF, #D6D6D6);
-  background: -moz-linear-gradient(top left, #FFFFFF, #D6D6D6);
-  background: linear-gradient(to bottom right, #FFFFFF, #D6D6D6);
+  background: #E69A19;
+  background: -webkit-linear-gradient(top left, #E69A19, #FFFFFF);
+  background: -moz-linear-gradient(top left, #E69A19, #FFFFFF);
+  background: linear-gradient(to bottom right, #E69A19, #FFFFFF);
 }
 
 .logos a {
-  color: black;
+  color: white;
 }
 
 .logos a:hover {
@@ -15,6 +15,8 @@ body {
 }
 
 #profileimg {
-  -webkit-box-shadow: 5px 5px 15px -6px #000000; 
-  box-shadow: 5px 5px 15px -6px #000000;
+  /* -webkit-box-shadow: 5px 5px 15px -6px #000000; 
+  box-shadow: 5px 5px 15px -6px #000000; */
+  -webkit-box-shadow: 4px 5px 30px 5px rgba(193,130,21,0.72); 
+  box-shadow: 4px 5px 30px 5px rgba(193,130,21,0.72);
 }
