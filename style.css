@@ -1,44 +1,7 @@
-/* SOURCE: https://codepen.io/P1N2O/pen/pyBNzX */
-
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-/* Source: https://stackoverflow.com/questions/34959217/animating-an-image-to-make-it-rotate-in-a-circle */
-
-#spinning-circle {
-  animation-name: spinning-circle;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  width: 40px;
-  height: 40px;
-}
-
-@-webkit-keyframes spinning-circle {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transform-origin: 125% 125%;
-    transform-origin: 125% 125%;
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-    -webkit-transform-origin: 125% 125%;
-    transform-origin: 125% 125%;
-  }
+  font-family: 'Raleway', sans-serif;
+  background: #E0B60A;
+  background: -webkit-linear-gradient(top left, #E0B60A, #EBEBEB);
+  background: -moz-linear-gradient(top left, #E0B60A, #EBEBEB);
+  background: linear-gradient(to bottom right, #E0B60A, #EBEBEB);
 }
